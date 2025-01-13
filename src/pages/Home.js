@@ -66,7 +66,7 @@ const Home = () => {
       </div>
 
       <div className="mt-20 flex flex-col items-center space-y-6">
-        <div className="bg-white text-gray-800 rounded-lg shadow-lg p-6 w-full max-w-2xl transform transition-transform hover:scale-105 hover:shadow-xl glow-effect">
+        <div className="bg-black text-gray-800 rounded-lg shadow-lg p-6 w-full max-w-2xl transform transition-transform hover:scale-105 hover:shadow-xl glow-effect">
           <h2 className="text-3xl font-semibold mb-4 text-center text-xl sm:text-2xl md:text-3xl">
             About Me
           </h2>
