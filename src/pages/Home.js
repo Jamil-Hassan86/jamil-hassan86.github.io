@@ -77,16 +77,6 @@ const Home = () => {
           </p>
         </div>
       </div>
-
-      
-      <div className="mt-20 text-center">
-        <a
-          href="projects"
-          className="inline-block px-8 py-4 bg-yellow-400 text-gray-900 font-semibold text-lg rounded-lg shadow-md hover:bg-yellow-500 transition-all duration-300"
-        >
-          Check Out My Projects
-        </a>
-      </div>
     </div>
   );
 };

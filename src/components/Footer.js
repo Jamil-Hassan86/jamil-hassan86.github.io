@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="bg-black-800 text-blue p-4 text-center">
       <div className="flex justify-center items-center space-x-4">
         <a
-          href="https://github.com/jamil-hassan86"  // Replace with your actual GitHub URL
+          href="https://github.com/jamil-hassan86"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center text-3xl text-white hover:text-yellow-400 transition-all duration-300"
