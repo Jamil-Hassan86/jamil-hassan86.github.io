@@ -4,7 +4,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
-    <footer className="bg-black-800 text-white p-4 text-center">
+    <footer className="bg-black-800 text-blue p-4 text-center">
       <div className="flex justify-center items-center space-x-4">
         <a
           href="https://github.com/jamil-hassan86"  // Replace with your actual GitHub URL
