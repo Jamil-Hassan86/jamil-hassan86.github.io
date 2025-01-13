@@ -1,12 +1,25 @@
+import React from 'react';
 import './App.css';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import Projects from './pages/Projects';
+import CustomCursor from './customCursor';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-red-500 to-blue-400">
-      <header className="text-center">
-        <h1 className="text-4xl font-bold text-gray-900 hover:text-white transition duration-500">Blonk</h1>
-      </header>
-    </div>
+    <Router>
+      <CustomCursor />
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
