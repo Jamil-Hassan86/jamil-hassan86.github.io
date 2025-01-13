@@ -23,8 +23,8 @@ const Projects = () => {
                   </a>
                 </div>
         <div className="mt-10 p-4 bg-white rounded shadow-md">
-          <h2 className="text-xl font-bold">Project 2</h2>
-          <p>A description of the project.</p>
+          <h2 className="text-xl font-bold">Currently Working on a Machine Learning project for diabetes prediction</h2>
+          <p>As of now, I am currently working towards creating a machine learning diabetes predictor tailored for ethnic minority groups</p>
         </div>
       </div>
     </div>
